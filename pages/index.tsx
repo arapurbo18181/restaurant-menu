@@ -22,7 +22,7 @@ const Home: NextPage = () => {
   return (
     <section className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Food Menu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center text-5xl font-bold">Food Menu</div>
