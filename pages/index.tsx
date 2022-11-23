@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center text-5xl font-bold">Food Menu</div>
-      <section className="flex justify-center items-center my-4 space-x-4">
+      <section className="flex justify-center items-center my-4 text-sm md:text-xl space-x-1 md:space-x-4">
         {categories.map((elem) => {
           return (
             <button
@@ -38,12 +38,12 @@ const Home: NextPage = () => {
           );
         })}
       </section>
-      <section className="grid grid-cols-3 gap-3 m-5">
+      <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 xl:m-5 place-content-center place-items-center w-[100vw]">
         {items.map((elem) => {
           return (
             <div
               key={elem.id}
-              className="flex justify-between bg-gray-100 border rounded-lg h-[30vh] w-[30vw] overflow-hidden"
+              className="flex justify-between bg-gray-100 border rounded-lg h-[30vh] w-full md:w-[40vw] xl:w-[30vw] overflow-hidden"
             >
               <div className="flex-1 h-full w-full">
                 <img
