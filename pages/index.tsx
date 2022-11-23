@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           );
         })}
       </section>
-      <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 xl:m-5 place-content-center place-items-center w-[100vw]">
+      <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 xl:m-5 place-content-center place-items-center w-[97vw]">
         {items.map((elem) => {
           return (
             <div
