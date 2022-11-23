@@ -43,7 +43,7 @@ const Home: NextPage = () => {
           return (
             <div
               key={elem.id}
-              className="flex justify-between bg-gray-100 border rounded-lg h-[30vh] w-full md:w-[40vw] xl:w-[30vw] overflow-hidden"
+              className="flex justify-between bg-gray-100 border rounded-lg h-[40vh] md:h-[35vh] xl:h-[30vh] w-full md:w-[40vw] xl:w-[30vw] overflow-hidden"
             >
               <div className="flex-1 h-full w-full">
                 <img
