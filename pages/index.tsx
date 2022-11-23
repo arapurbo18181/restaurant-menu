@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Menu from "../components/Menu";
 
-const categories = [...new Set(Menu.map((elem) => elem.category)), "All Items"];
+const categories = ["breakfast", "lunch", "shakes", "dinner", "All Items"];
 
 const Home: NextPage = () => {
   const [items, setItems] = useState(Menu);
